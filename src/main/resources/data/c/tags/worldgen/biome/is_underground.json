@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:scorched_caves",
+      "required": false
+    },
+    {
+      "id": "still_life:pale_hollow",
+      "required": false
+    },
+    {
+      "id": "still_life:mushroom_caves",
+      "required": false
+    },
+    {
+      "id": "still_life:infested_tunnels",
+      "required": false
+    },
+    {
+      "id": "still_life:glowing_caves",
+      "required": false
+    },
+    {
+      "id": "still_life:frozen_caves",
+      "required": false
+    },
+    {
+      "id": "still_life:barren_caves",
+      "required": false
+    },
+    {
+      "id": "minecraft:lush_caves",
+      "required": false
+    },
+    {
+      "id": "minecraft:dripstone_caves",
+      "required": false
+    },
+    {
+      "id": "minecraft:deep_dark",
+      "required": false
+    }
+  ]
+}

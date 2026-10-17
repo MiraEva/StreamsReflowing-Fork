@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "minecraft:patch_pumpkin", "required": false },
+    { "id": "waystones:waystone", "required": false },
+    { "id": "waystones:mossy_waystone", "required": false },
+    { "id": "waystones:sandy_waystone", "required": false },
+    { "id": "waystones:deepslate_waystone", "required": false },
+    { "id": "waystones:blackstone_waystone", "required": false },
+    { "id": "waystones:end_stone_waystone", "required": false },
+    { "id": "molten_vents:asurine_vent", "required": false },
+    { "id": "molten_vents:crimsite_vent", "required": false },
+    { "id": "molten_vents:ochrum_vent", "required": false },
+    { "id": "molten_vents:scorchia_vent", "required": false },
+    { "id": "molten_vents:scoria_vent", "required": false },
+    { "id": "molten_vents:veridium_vent", "required": false },
+    { "id": "molten_vents:aquatic_asurine_vent", "required": false },
+    { "id": "molten_vents:aquatic_crimsite_vent", "required": false },
+    { "id": "molten_vents:aquatic_ochrum_vent", "required": false },
+    { "id": "molten_vents:aquatic_scorchia_vent", "required": false },
+    { "id": "molten_vents:aquatic_scoria_vent", "required": false },
+    { "id": "molten_vents:aquatic_veridium_vent", "required": false }
+  ]
+}

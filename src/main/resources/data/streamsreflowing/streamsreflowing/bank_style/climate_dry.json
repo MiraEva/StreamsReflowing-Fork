@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "c:is_dry"
+  ],
+  "exclude_tags": [
+    "c:is_swamp",
+    "forge:is_swamp"
+  ],
+  "cohesion": 0.15,
+  "bed": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25,
+    "overrides": [
+      {
+        "when": {
+          "bend": "> 0.2",
+          "side": "inner"
+        },
+        "block": ["minecraft:gravel", "minecraft:sand"]
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25
+  },
+  "bank": "minecraft:air",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

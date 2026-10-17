@@ -1,0 +1,23 @@
+{
+  "biomes": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle"
+  ],
+  "cohesion": 1.0,
+  "bed": {
+    "block": "minecraft:mossy_cobblestone",
+    "edge_noise": 0.35
+  },
+  "waterline": {
+    "block": "minecraft:mud"
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

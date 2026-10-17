@@ -1,0 +1,32 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[47,)" #mandatory This is typically bumped every Minecraft version by Forge. See https://files.minecraftforge.net/ for a list of versions.
+license = "All Rights Reserved" # Review your options at https://choosealicense.com/.
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId = "streamsreflowing" #mandatory
+version = "2.15.0" #mandatory
+displayName = "StreamsReflowing" #mandatory
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional (see https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/)
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional (displayed in the mod UI)
+logoFile = "streamsreflowing.png" #optional (needs to be in the root of your mod jar (root of your 'resources' folder))
+credits = "Algorithm from the Plate-Local River Generation paper (M. K. Davis III, 2026); inspired by delvr's Streams." #optional
+authors = "nicejohn" #optional
+description = '''Adds flowing streams, rivers and lakes to any terrain.''' #mandatory (Supports multiline text)
+
+# "Water spills over water" + boat/structure/carver/feature behaviour (the mixins). Remove this block + the
+# mixins config to restore vanilla.
+[[mixins]]
+config = "streamsreflowing.mixins.json"
+
+[[dependencies.streamsreflowing]] #optional
+modId = "forge" #mandatory
+mandatory = true #mandatory
+versionRange = "[47,)" #mandatory
+ordering = "NONE" # The order that this dependency should load in relation to your mod, required to be either 'BEFORE' or 'AFTER' if the dependency is not mandatory
+side = "BOTH" # Side this dependency is applied on - 'BOTH', 'CLIENT' or 'SERVER'
+[[dependencies.streamsreflowing]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1, 1.21)"
+ordering = "NONE"
+side = "BOTH"

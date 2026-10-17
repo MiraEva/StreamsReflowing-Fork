@@ -1,0 +1,6 @@
+{
+  "type": "streamsreflowing:add_features_overworld",
+  "biomes": "#streamsreflowing:stream_biomes",
+  "features": "streamsreflowing:stream_vegetation",
+  "step": "vegetal_decoration"
+}

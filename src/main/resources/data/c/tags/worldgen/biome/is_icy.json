@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:glacial_basin",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_glacier",
+      "required": false
+    }
+  ]
+}

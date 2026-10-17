@@ -1,0 +1,19 @@
+{
+  "biomes": ["minecraft:stony_peaks"],
+  "cohesion": 0.8,
+  "bed": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25
+  },
+  "waterline": {
+    "block": "minecraft:stone",
+    "edge_noise": 0.25
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}

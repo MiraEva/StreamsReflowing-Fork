@@ -1,0 +1,137 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:frozen_caves",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_desert_basin",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_glacier",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_river",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_shallow_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:barren_arctic_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:barren_tundra",
+      "required": false
+    },
+    {
+      "id": "still_life:bog",
+      "required": false
+    },
+    {
+      "id": "still_life:boreal_alpine_tundra",
+      "required": false
+    },
+    {
+      "id": "still_life:alpine_tundra",
+      "required": false
+    },
+    {
+      "id": "still_life:boreal_river",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_shallow_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_taiga",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_taiga_clearings",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_tundra_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:evergreen_taiga",
+      "required": false
+    },
+    {
+      "id": "still_life:fen",
+      "required": false
+    },
+    {
+      "id": "still_life:glacial_basin",
+      "required": false
+    },
+    {
+      "id": "still_life:lush_tundra",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_barren_peaks",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_boreal_alpine_tundra",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_peaks",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_tundra",
+      "required": false
+    },
+    {
+      "id": "still_life:taiga_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:taiga_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:tundra_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:tundra_river",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_tundra",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "biomes": [
+    "minecraft:mushroom_fields"
+  ],
+  "bed": {
+    "block": "minecraft:gravel"
+  },
+  "waterline": {
+    "block": "minecraft:mud"
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

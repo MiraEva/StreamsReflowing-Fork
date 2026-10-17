@@ -1,0 +1,26 @@
+{
+  "tags": ["c:is_beach"],
+  "star": true,
+  "cohesion": 0.0,
+  "bed": {
+    "block": ["minecraft:mud", "minecraft:sand", "minecraft:sand"],
+    "overrides": [
+      {
+        "when": {
+          "bend": "> 0.2",
+          "side": "inner"
+        },
+        "block": "minecraft:sand"
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:sand"
+  },
+  "bank": "streamsreflowing:chameleon",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

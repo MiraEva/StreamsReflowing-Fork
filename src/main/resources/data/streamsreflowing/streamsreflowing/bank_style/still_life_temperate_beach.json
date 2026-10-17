@@ -1,0 +1,23 @@
+{
+  "biomes": ["still_life:temperate_beach"],
+  "cohesion": 0.0,
+  "bed": {
+    "block": ["minecraft:mud", "minecraft:sand", "minecraft:sand"],
+    "edge_noise": 0.35,
+    "overrides": [
+      {
+        "when": { "bend": "> 0.2", "side": "inner" },
+        "block": "minecraft:sand"
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:sand",
+    "edge_noise": 0.35
+  },
+  "bank": "minecraft:air",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air", "minecraft:air", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}

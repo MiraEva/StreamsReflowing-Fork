@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:boreal_river",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_taiga",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_taiga_clearings",
+      "required": false
+    },
+    {
+      "id": "still_life:evergreen_taiga",
+      "required": false
+    },
+    {
+      "id": "still_life:fen",
+      "required": false
+    },
+    {
+      "id": "still_life:taiga_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:taiga_highlands",
+      "required": false
+    }
+  ]
+}

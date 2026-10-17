@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:birch_forest",
+      "required": false
+    }
+  ]
+}

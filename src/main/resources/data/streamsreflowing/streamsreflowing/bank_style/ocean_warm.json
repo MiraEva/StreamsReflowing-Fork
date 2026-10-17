@@ -1,0 +1,16 @@
+{
+  "biomes": ["minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean"],
+  "cohesion": 0.1,
+  "bed": "minecraft:air",
+  "waterline": {
+    "block": "minecraft:sand",
+    "below": 80,
+    "above": 10,
+    "edge_noise": 0.35
+  },
+  "bank": "minecraft:air",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air", "minecraft:air", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}

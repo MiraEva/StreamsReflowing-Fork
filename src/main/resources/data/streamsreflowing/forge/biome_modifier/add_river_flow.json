@@ -1,0 +1,6 @@
+{
+  "type": "streamsreflowing:add_features_overworld",
+  "biomes": "#streamsreflowing:stream_biomes",
+  "features": "streamsreflowing:river_flow",
+  "step": "top_layer_modification"
+}

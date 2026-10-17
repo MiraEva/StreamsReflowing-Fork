@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:haunted_depths",
+      "required": false
+    },
+    {
+      "id": "still_life:pale_hollow",
+      "required": false
+    }
+  ]
+}

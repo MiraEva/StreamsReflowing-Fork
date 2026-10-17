@@ -1,0 +1,26 @@
+{
+  "biomes": ["still_life:xeric_shrubland"],
+  "cohesion": 0.15,
+  "bed": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25,
+    "overrides": [
+      {
+        "when": { "bend": "> 0.2", "side": "inner" },
+        "block": ["minecraft:gravel", "minecraft:sand"]
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:packed_mud",
+    "above": 30,
+    "edge_noise": 0.9
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}

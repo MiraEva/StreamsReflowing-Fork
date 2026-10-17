@@ -1,0 +1,18 @@
+{
+  "biomes": [
+    "minecraft:dark_forest"
+  ],
+  "cohesion": 1.0,
+  "bed": {
+    "block": "minecraft:mossy_cobblestone"
+  },
+  "waterline": {
+    "block": "minecraft:mud"
+  },
+  "bank": "streamsreflowing:chameleon",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

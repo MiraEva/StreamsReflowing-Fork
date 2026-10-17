@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:arctic_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:desert_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:fen",
+      "required": false
+    },
+    {
+      "id": "still_life:flooded_grasslands",
+      "required": false
+    },
+    {
+      "id": "still_life:flooded_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:mangrove_marsh",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_marsh",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_swamp",
+      "required": false
+    },
+    {
+      "id": "still_life:mire",
+      "required": false
+    },
+    {
+      "id": "still_life:temperate_marsh",
+      "required": false
+    },
+    {
+      "id": "still_life:temperate_swamp",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:bog",
+      "required": false
+    }
+  ]
+}

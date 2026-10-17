@@ -1,0 +1,144 @@
+{
+  "mappings": {
+    "dev/streamsreflowing/forge/mixin/StreamBiomeSpawnsMixin": {
+      "getMobSettings": "Lnet/minecraft/world/level/biome/Biome;m_47518_()Lnet/minecraft/world/level/biome/MobSpawnSettings;"
+    },
+    "dev/streamsreflowing/forge/mixin/BiomeMixin": {
+      "Lnet/minecraft/world/level/material/FluidState;getType()Lnet/minecraft/world/level/material/Fluid;": "Lnet/minecraft/world/level/material/FluidState;m_76152_()Lnet/minecraft/world/level/material/Fluid;",
+      "coldEnoughToSnow(Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/biome/Biome;m_198904_(Lnet/minecraft/core/BlockPos;)Z",
+      "shouldFreeze(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Z)Z": "Lnet/minecraft/world/level/biome/Biome;m_47480_(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Z)Z",
+      "warmEnoughToRain(Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/biome/Biome;m_198906_(Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "dev/streamsreflowing/forge/mixin/WaterFluidMixin": {
+      "isSame": "Lnet/minecraft/world/level/material/WaterFluid;m_6212_(Lnet/minecraft/world/level/material/Fluid;)Z"
+    },
+    "dev/streamsreflowing/forge/mixin/StructureMixin": {
+      "findValidGenerationPoint": "Lnet/minecraft/world/level/levelgen/structure/Structure;m_262864_(Lnet/minecraft/world/level/levelgen/structure/Structure$GenerationContext;)Ljava/util/Optional;",
+      "generate": "Lnet/minecraft/world/level/levelgen/structure/Structure;m_226596_(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/biome/BiomeSource;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;JLnet/minecraft/world/level/ChunkPos;ILnet/minecraft/world/level/LevelHeightAccessor;Ljava/util/function/Predicate;)Lnet/minecraft/world/level/levelgen/structure/StructureStart;"
+    },
+    "dev/streamsreflowing/forge/mixin/ConfiguredFeatureMixin": {
+      "place": "Lnet/minecraft/world/level/levelgen/feature/ConfiguredFeature;m_224953_(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "dev/streamsreflowing/forge/mixin/EntityFlowMixin": {
+      "Lnet/minecraft/world/entity/Entity;isPushedByFluid()Z": "Lnet/minecraft/world/entity/Entity;m_6063_()Z",
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V",
+      "updateFluidHeightAndDoFluidPushing": "Lnet/minecraft/world/entity/Entity;m_204031_(Lnet/minecraft/tags/TagKey;D)Z",
+      "isPushedByFluid": "Lnet/minecraft/world/entity/Entity;m_6063_()Z"
+    },
+    "dev/streamsreflowing/forge/mixin/PaletteResizeLoopMixin": {
+      "Lnet/minecraft/world/level/chunk/PaletteResize;onResize(ILjava/lang/Object;)I": "Lnet/minecraft/world/level/chunk/PaletteResize;m_7248_(ILjava/lang/Object;)I",
+      "idFor": "m_6796_(Ljava/lang/Object;)I"
+    },
+    "dev/streamsreflowing/forge/mixin/ChunkStatusGenerateMixin": {
+      "generate": "Lnet/minecraft/world/level/chunk/ChunkStatus;m_280308_(Ljava/util/concurrent/Executor;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/server/level/ThreadedLevelLightEngine;Ljava/util/function/Function;Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;"
+    },
+    "dev/streamsreflowing/forge/mixin/ItemEntityMixin": {
+      "tick": "Lnet/minecraft/world/entity/item/ItemEntity;m_8119_()V"
+    },
+    "dev/streamsreflowing/forge/mixin/LiquidBlockRendererMixin": {
+      "shouldRenderFace(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/material/FluidState;)Z": "Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;m_203166_(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/material/FluidState;)Z",
+      "isNeighborSameFluid(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/material/FluidState;)Z": "Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;m_203185_(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/material/FluidState;)Z",
+      "getHeight(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)F": "Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;m_203160_(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)F"
+    },
+    "dev/streamsreflowing/forge/mixin/LevelLoadingScreenMixin": {
+      "render": "Lnet/minecraft/client/gui/screens/LevelLoadingScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+    },
+    "dev/streamsreflowing/forge/mixin/FlowingFluidMixin": {
+      "getNewLiquid": "Lnet/minecraft/world/level/material/FlowingFluid;m_76035_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;",
+      "Lnet/minecraft/world/level/material/Fluid;isSame(Lnet/minecraft/world/level/material/Fluid;)Z": "Lnet/minecraft/world/level/material/Fluid;m_6212_(Lnet/minecraft/world/level/material/Fluid;)Z",
+      "isWaterHole": "Lnet/minecraft/world/level/material/FlowingFluid;m_75956_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z",
+      "getFlow": "Lnet/minecraft/world/level/material/FlowingFluid;m_7000_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/phys/Vec3;"
+    },
+    "dev/streamsreflowing/forge/mixin/WorldCarverMixin": {
+      "carveBlock": "Lnet/minecraft/world/level/levelgen/carver/WorldCarver;m_183633_(Lnet/minecraft/world/level/levelgen/carver/CarvingContext;Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/function/Function;Lnet/minecraft/world/level/chunk/CarvingMask;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/world/level/levelgen/Aquifer;Lorg/apache/commons/lang3/mutable/MutableBoolean;)Z"
+    },
+    "dev/streamsreflowing/forge/mixin/IceMeltMixin": {
+      "Lnet/minecraft/world/level/Level;setBlockAndUpdate(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z": "Lnet/minecraft/world/level/Level;m_46597_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z",
+      "melt": "Lnet/minecraft/world/level/block/IceBlock;m_54168_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V"
+    },
+    "dev/streamsreflowing/forge/mixin/FishingHookMixin": {
+      "Lnet/minecraft/world/entity/item/ItemEntity;setDeltaMovement(DDD)V": "Lnet/minecraft/world/entity/item/ItemEntity;m_20334_(DDD)V",
+      "retrieve": "Lnet/minecraft/world/entity/projectile/FishingHook;m_37156_(Lnet/minecraft/world/item/ItemStack;)I"
+    },
+    "dev/streamsreflowing/forge/mixin/FrostWalkerMixin": {
+      "onEntityMoved": "Lnet/minecraft/world/item/enchantment/FrostWalkerEnchantment;m_45018_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;I)V",
+      "Lnet/minecraft/world/level/Level;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;": "Lnet/minecraft/world/level/Level;m_8055_(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"
+    },
+    "dev/streamsreflowing/forge/mixin/BoatMixin": {
+      "floatBoat": "Lnet/minecraft/world/entity/vehicle/Boat;m_38395_()V",
+      "isUnderwater": "Lnet/minecraft/world/entity/vehicle/Boat;m_38394_()Lnet/minecraft/world/entity/vehicle/Boat$Status;"
+    }
+  },
+  "data": {
+    "searge": {
+      "dev/streamsreflowing/forge/mixin/StreamBiomeSpawnsMixin": {
+        "getMobSettings": "Lnet/minecraft/world/level/biome/Biome;m_47518_()Lnet/minecraft/world/level/biome/MobSpawnSettings;"
+      },
+      "dev/streamsreflowing/forge/mixin/BiomeMixin": {
+        "Lnet/minecraft/world/level/material/FluidState;getType()Lnet/minecraft/world/level/material/Fluid;": "Lnet/minecraft/world/level/material/FluidState;m_76152_()Lnet/minecraft/world/level/material/Fluid;",
+        "coldEnoughToSnow(Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/biome/Biome;m_198904_(Lnet/minecraft/core/BlockPos;)Z",
+        "shouldFreeze(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Z)Z": "Lnet/minecraft/world/level/biome/Biome;m_47480_(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Z)Z",
+        "warmEnoughToRain(Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/biome/Biome;m_198906_(Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "dev/streamsreflowing/forge/mixin/WaterFluidMixin": {
+        "isSame": "Lnet/minecraft/world/level/material/WaterFluid;m_6212_(Lnet/minecraft/world/level/material/Fluid;)Z"
+      },
+      "dev/streamsreflowing/forge/mixin/StructureMixin": {
+        "findValidGenerationPoint": "Lnet/minecraft/world/level/levelgen/structure/Structure;m_262864_(Lnet/minecraft/world/level/levelgen/structure/Structure$GenerationContext;)Ljava/util/Optional;",
+        "generate": "Lnet/minecraft/world/level/levelgen/structure/Structure;m_226596_(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/biome/BiomeSource;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;JLnet/minecraft/world/level/ChunkPos;ILnet/minecraft/world/level/LevelHeightAccessor;Ljava/util/function/Predicate;)Lnet/minecraft/world/level/levelgen/structure/StructureStart;"
+      },
+      "dev/streamsreflowing/forge/mixin/ConfiguredFeatureMixin": {
+        "place": "Lnet/minecraft/world/level/levelgen/feature/ConfiguredFeature;m_224953_(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "dev/streamsreflowing/forge/mixin/EntityFlowMixin": {
+        "Lnet/minecraft/world/entity/Entity;isPushedByFluid()Z": "Lnet/minecraft/world/entity/Entity;m_6063_()Z",
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V",
+        "updateFluidHeightAndDoFluidPushing": "Lnet/minecraft/world/entity/Entity;m_204031_(Lnet/minecraft/tags/TagKey;D)Z",
+        "isPushedByFluid": "Lnet/minecraft/world/entity/Entity;m_6063_()Z"
+      },
+      "dev/streamsreflowing/forge/mixin/PaletteResizeLoopMixin": {
+        "Lnet/minecraft/world/level/chunk/PaletteResize;onResize(ILjava/lang/Object;)I": "Lnet/minecraft/world/level/chunk/PaletteResize;m_7248_(ILjava/lang/Object;)I",
+        "idFor": "m_6796_(Ljava/lang/Object;)I"
+      },
+      "dev/streamsreflowing/forge/mixin/ChunkStatusGenerateMixin": {
+        "generate": "Lnet/minecraft/world/level/chunk/ChunkStatus;m_280308_(Ljava/util/concurrent/Executor;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/server/level/ThreadedLevelLightEngine;Ljava/util/function/Function;Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;"
+      },
+      "dev/streamsreflowing/forge/mixin/ItemEntityMixin": {
+        "tick": "Lnet/minecraft/world/entity/item/ItemEntity;m_8119_()V"
+      },
+      "dev/streamsreflowing/forge/mixin/LiquidBlockRendererMixin": {
+        "shouldRenderFace(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/material/FluidState;)Z": "Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;m_203166_(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/material/FluidState;)Z",
+        "isNeighborSameFluid(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/material/FluidState;)Z": "Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;m_203185_(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/material/FluidState;)Z",
+        "getHeight(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)F": "Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;m_203160_(Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)F"
+      },
+      "dev/streamsreflowing/forge/mixin/LevelLoadingScreenMixin": {
+        "render": "Lnet/minecraft/client/gui/screens/LevelLoadingScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+      },
+      "dev/streamsreflowing/forge/mixin/FlowingFluidMixin": {
+        "getNewLiquid": "Lnet/minecraft/world/level/material/FlowingFluid;m_76035_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;",
+        "Lnet/minecraft/world/level/material/Fluid;isSame(Lnet/minecraft/world/level/material/Fluid;)Z": "Lnet/minecraft/world/level/material/Fluid;m_6212_(Lnet/minecraft/world/level/material/Fluid;)Z",
+        "isWaterHole": "Lnet/minecraft/world/level/material/FlowingFluid;m_75956_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z",
+        "getFlow": "Lnet/minecraft/world/level/material/FlowingFluid;m_7000_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/phys/Vec3;"
+      },
+      "dev/streamsreflowing/forge/mixin/WorldCarverMixin": {
+        "carveBlock": "Lnet/minecraft/world/level/levelgen/carver/WorldCarver;m_183633_(Lnet/minecraft/world/level/levelgen/carver/CarvingContext;Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/function/Function;Lnet/minecraft/world/level/chunk/CarvingMask;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/world/level/levelgen/Aquifer;Lorg/apache/commons/lang3/mutable/MutableBoolean;)Z"
+      },
+      "dev/streamsreflowing/forge/mixin/IceMeltMixin": {
+        "Lnet/minecraft/world/level/Level;setBlockAndUpdate(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z": "Lnet/minecraft/world/level/Level;m_46597_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z",
+        "melt": "Lnet/minecraft/world/level/block/IceBlock;m_54168_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V"
+      },
+      "dev/streamsreflowing/forge/mixin/FishingHookMixin": {
+        "Lnet/minecraft/world/entity/item/ItemEntity;setDeltaMovement(DDD)V": "Lnet/minecraft/world/entity/item/ItemEntity;m_20334_(DDD)V",
+        "retrieve": "Lnet/minecraft/world/entity/projectile/FishingHook;m_37156_(Lnet/minecraft/world/item/ItemStack;)I"
+      },
+      "dev/streamsreflowing/forge/mixin/FrostWalkerMixin": {
+        "onEntityMoved": "Lnet/minecraft/world/item/enchantment/FrostWalkerEnchantment;m_45018_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;I)V",
+        "Lnet/minecraft/world/level/Level;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;": "Lnet/minecraft/world/level/Level;m_8055_(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"
+      },
+      "dev/streamsreflowing/forge/mixin/BoatMixin": {
+        "floatBoat": "Lnet/minecraft/world/entity/vehicle/Boat;m_38395_()V",
+        "isUnderwater": "Lnet/minecraft/world/entity/vehicle/Boat;m_38394_()Lnet/minecraft/world/entity/vehicle/Boat$Status;"
+      }
+    }
+  }
+}

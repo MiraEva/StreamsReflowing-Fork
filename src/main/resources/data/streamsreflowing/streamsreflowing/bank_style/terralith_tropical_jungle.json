@@ -1,0 +1,25 @@
+{
+  "biomes": [
+    "terralith:tropical_jungle"
+  ],
+  "cohesion": 1.0,
+  "bed": {
+    "block": "minecraft:blackstone",
+    "edge_noise": 0.3
+  },
+  "waterline": {
+    "above": 20,
+    "block": "minecraft:basalt",
+    "edge_noise": 0.3
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": [
+      "streamsreflowing:chameleon",
+      "minecraft:air"
+    ],
+    "edge_noise": 0.5
+  }
+}

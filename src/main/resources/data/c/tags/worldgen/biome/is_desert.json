@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:arid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:arid_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:desert_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:semiarid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_semiarid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:xeric_shrubland",
+      "required": false
+    }
+  ]
+}

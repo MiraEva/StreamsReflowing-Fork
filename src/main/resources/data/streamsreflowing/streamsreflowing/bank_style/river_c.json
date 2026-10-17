@@ -1,0 +1,22 @@
+{
+  "tags": ["c:is_river"],
+  "cohesion": 0.3,
+  "bed": {
+    "block": "minecraft:mud",
+    "overrides": [
+      {
+        "when": { "bend": "> 0.2", "side": "inner" },
+        "block": ["minecraft:gravel", "minecraft:sand"]
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:mud",
+    "below": 10
+  },
+  "bank": "minecraft:air",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air", "minecraft:air", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}

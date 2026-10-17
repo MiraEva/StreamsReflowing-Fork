@@ -1,0 +1,31 @@
+{
+  "biomes": [
+    "minecraft:meadow"
+  ],
+  "cohesion": 0.6,
+  "bed": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25,
+    "overrides": [
+      {
+        "when": {
+          "bend": "> 0.2",
+          "side": "inner"
+        },
+        "block": ["minecraft:gravel", "minecraft:gravel", "minecraft:sand"]
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:cold_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_glacier",
+      "required": false
+    },
+    {
+      "id": "still_life:glacial_basin",
+      "required": false
+    },
+    {
+      "id": "still_life:haunted_depths",
+      "required": false
+    },
+    {
+      "id": "still_life:pale_hollow",
+      "required": false
+    },
+    {
+      "id": "still_life:pine_woods",
+      "required": false
+    },
+    {
+      "id": "still_life:larch_woodlands",
+      "required": false
+    },
+    {
+      "id": "still_life:dry_tropical_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_wetlands",
+      "required": false
+    }
+  ]
+}

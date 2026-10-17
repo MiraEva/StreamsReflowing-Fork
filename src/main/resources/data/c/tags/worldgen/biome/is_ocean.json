@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:arctic_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_shallow_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_shallow_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:subtropical_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:subtropical_shallow_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:temperate_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:temperate_shallow_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_shallow_ocean",
+      "required": false
+    }
+  ]
+}

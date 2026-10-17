@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:arctic_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:arid_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_tundra_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:taiga_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:tundra_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:temperate_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_beach",
+      "required": false
+    }
+  ]
+}

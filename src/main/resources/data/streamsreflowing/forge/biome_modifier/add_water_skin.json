@@ -1,0 +1,6 @@
+{
+  "type": "streamsreflowing:add_features_overworld",
+  "biomes": "#streamsreflowing:stream_biomes",
+  "features": "streamsreflowing:water_skin",
+  "step": "local_modifications"
+}

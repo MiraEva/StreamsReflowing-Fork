@@ -1,0 +1,31 @@
+{
+  "biomes": [
+    "minecraft:stony_shore"
+  ],
+  "cohesion": 0.3,
+  "bed": {
+    "block": "minecraft:gravel",
+    "overrides": [
+      {
+        "when": {
+          "bend": "> 0.2",
+          "side": "inner"
+        },
+        "block": "minecraft:gravel"
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:cobblestone"
+  },
+  "bank": "minecraft:air",
+  "top_bank": {
+    "block": [
+      "streamsreflowing:chameleon",
+      "minecraft:air",
+      "minecraft:air",
+      "minecraft:air"
+    ],
+    "edge_noise": 0.5
+  }
+}

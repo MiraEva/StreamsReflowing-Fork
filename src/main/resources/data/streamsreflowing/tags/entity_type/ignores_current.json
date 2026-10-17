@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "elainabroom:broom", "required": false },
+    { "id": "elainabroom:marisa_broom", "required": false }
+  ]
+}

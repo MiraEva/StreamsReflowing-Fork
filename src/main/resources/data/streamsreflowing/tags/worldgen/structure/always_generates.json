@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "nomansland:meeting_point", "required": false},
+    {"id": "nomansland:dream_meeting_point", "required": false}
+  ]
+}

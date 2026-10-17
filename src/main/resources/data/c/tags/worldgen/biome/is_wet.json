@@ -1,0 +1,97 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:arctic_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:desert_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:fen",
+      "required": false
+    },
+    {
+      "id": "still_life:flooded_grasslands",
+      "required": false
+    },
+    {
+      "id": "still_life:flooded_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:mangrove_marsh",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_marsh",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_swamp",
+      "required": false
+    },
+    {
+      "id": "still_life:mire",
+      "required": false
+    },
+    {
+      "id": "still_life:temperate_marsh",
+      "required": false
+    },
+    {
+      "id": "still_life:temperate_swamp",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:bog",
+      "required": false
+    },
+    {
+      "id": "still_life:humid_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:monsoon_forest",
+      "required": false
+    },
+    {
+      "id": "still_life:old_growth_tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_rainforest_river",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:glowing_caves",
+      "required": false
+    },
+    {
+      "id": "minecraft:lush_caves",
+      "required": false
+    }
+  ]
+}

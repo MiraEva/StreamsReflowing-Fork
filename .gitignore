@@ -1,0 +1,12 @@
+.gradle/
+build/
+run/
+run-server/
+oracle/*.jar
+*.iml
+.idea/
+__decomp/
+tools/*.jar
+__pycache__/
+*.pyc
+docs/

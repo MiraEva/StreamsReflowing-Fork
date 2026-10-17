@@ -1,0 +1,29 @@
+{
+  "biomes": [
+    "minecraft:desert"
+  ],
+  "cohesion": 0.0,
+  "bed": {
+    "block": "minecraft:sand",
+    "edge_noise": 0.25,
+    "overrides": [
+      {
+        "when": {
+          "bend": "> 0.2",
+          "side": "inner"
+        },
+        "block": "minecraft:sand"
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:sand",
+    "edge_noise": 0.25
+  },
+  "bank": "streamsreflowing:chameleon",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

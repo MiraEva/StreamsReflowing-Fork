@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:alpine_heathlands",
+      "required": false
+    },
+    {
+      "id": "still_life:alpine_plains",
+      "required": false
+    },
+    {
+      "id": "still_life:arid_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:barren_mediterranean_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_barren_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:dry_tropical_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:larch_woodlands",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_wooded_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:taiga_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_highlands",
+      "required": false
+    }
+  ]
+}

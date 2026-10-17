@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:arctic_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:arctic_desert_basin",
+      "required": false
+    },
+    {
+      "id": "still_life:barren_arctic_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_tundra_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_barren_peaks",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_boreal_alpine_tundra",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_peaks",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_tundra",
+      "required": false
+    }
+  ]
+}

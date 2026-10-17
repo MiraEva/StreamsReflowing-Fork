@@ -1,0 +1,19 @@
+{
+  "biomes": ["minecraft:snowy_beach"],
+  "cohesion": 0.0,
+  "bed": {
+    "block": "minecraft:sand",
+    "edge_noise": 0.35
+  },
+  "waterline": {
+    "block": "minecraft:packed_ice",
+    "edge_noise": 0.35
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}

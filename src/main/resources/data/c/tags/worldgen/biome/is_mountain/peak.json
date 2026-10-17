@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:barren_peaks",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_barren_peaks",
+      "required": false
+    },
+    {
+      "id": "still_life:snowy_peaks",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "biomes": ["still_life:wooded_prairie"],
+  "bed": {
+    "block": "minecraft:clay"
+  },
+  "waterline": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}

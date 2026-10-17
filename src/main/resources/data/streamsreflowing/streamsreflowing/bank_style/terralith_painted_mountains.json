@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    "terralith:painted_mountains"
+  ],
+  "enabled": false,
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": [
+      "streamsreflowing:chameleon",
+      "minecraft:air"
+    ],
+    "edge_noise": 0.5
+  }
+}

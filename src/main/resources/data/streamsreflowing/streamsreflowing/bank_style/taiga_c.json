@@ -1,0 +1,37 @@
+{
+  "tags": [
+    "c:is_taiga"
+  ],
+  "exclude_tags": [
+    "c:is_swamp",
+    "forge:is_swamp"
+  ],
+  "cohesion": 1.0,
+  "bed": {
+    "block": [
+      "minecraft:clay",
+      "minecraft:cobblestone",
+      "minecraft:gravel"
+    ],
+    "edge_noise": 0.35
+  },
+  "waterline": {
+    "below": 20,
+    "above": 30,
+    "block": [
+      "minecraft:cobblestone",
+      "minecraft:gravel"
+    ],
+    "edge_noise": 0.6
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": [
+      "streamsreflowing:chameleon",
+      "minecraft:air"
+    ],
+    "edge_noise": 0.5
+  }
+}

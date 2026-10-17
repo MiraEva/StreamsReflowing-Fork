@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:dry_tropical_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:grassland_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_dry_forest",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:flooded_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_river",
+      "required": false
+    }
+  ]
+}

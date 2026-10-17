@@ -1,0 +1,24 @@
+{
+  "biomes": ["minecraft:savanna", "minecraft:savanna_plateau"],
+  "cohesion": 0.1,
+  "bed": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25,
+    "overrides": [
+      {
+        "when": { "bend": "> 0.2", "side": "inner" },
+        "block": ["minecraft:gravel", "minecraft:sand", "minecraft:sand"]
+      }
+    ]
+  },
+  "waterline": {
+    "block": "minecraft:gravel"
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}

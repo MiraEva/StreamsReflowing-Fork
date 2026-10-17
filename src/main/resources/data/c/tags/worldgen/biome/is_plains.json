@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:cold_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:mixed_forest_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:warm_temperate_clearings",
+      "required": false
+    }
+  ]
+}

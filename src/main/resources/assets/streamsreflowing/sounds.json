@@ -1,0 +1,34 @@
+{
+  "stream_gentle": {
+    "category": "ambient",
+    "sounds": [{ "name": "streamsreflowing:gentle", "stream": false }]
+  },
+  "stream_small": {
+    "category": "ambient",
+    "sounds": [{ "name": "streamsreflowing:small_stream_close", "stream": false }]
+  },
+  "waterfall_small_close": {
+    "category": "ambient",
+    "sounds": [{ "name": "streamsreflowing:small_waterfall_close", "stream": false }]
+  },
+  "waterfall_small_far": {
+    "category": "ambient",
+    "sounds": [{ "name": "streamsreflowing:small_waterfall_far", "stream": false }]
+  },
+  "waterfall_large_close": {
+    "category": "ambient",
+    "sounds": [{ "name": "streamsreflowing:large_waterfall_close", "stream": false }]
+  },
+  "waterfall_roar_close": {
+    "category": "ambient",
+    "sounds": [{ "name": "streamsreflowing:roar_close", "stream": false }]
+  },
+  "waterfall_roar_far": {
+    "category": "ambient",
+    "sounds": [{ "name": "streamsreflowing:roar_far", "stream": false }]
+  },
+  "waterfall_large_far": {
+    "category": "ambient",
+    "sounds": [{ "name": "streamsreflowing:large_waterfall_far", "stream": false }]
+  }
+}

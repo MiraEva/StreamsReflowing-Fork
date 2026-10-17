@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "lilis_lucky_lures:floating_debris", "required": false },
+    { "id": "lilis_lucky_lures:floating_books", "required": false }
+  ]
+}

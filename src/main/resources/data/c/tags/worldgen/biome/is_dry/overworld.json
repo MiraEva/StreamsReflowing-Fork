@@ -1,0 +1,81 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:arid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:arid_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:desert_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:semiarid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_semiarid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:xeric_shrubland",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_semi_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:dry_cold_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:dry_tropical_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:grassland_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_barren_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:scorched_caves",
+      "required": false
+    },
+    {
+      "id": "still_life:shrub_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_dry_forest",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_mediterranean_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_savanna",
+      "required": false
+    }
+  ]
+}

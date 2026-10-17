@@ -1,0 +1,25 @@
+{
+  "biomes": [
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_savanna"
+  ],
+  "cohesion": 0.8,
+  "bed": {
+    "block": "minecraft:clay"
+  },
+  "waterline": {
+    "block": "minecraft:gravel"
+  },
+  "bank": {
+    "block": "streamsreflowing:chameleon"
+  },
+  "top_bank": {
+    "block": [
+      "streamsreflowing:chameleon",
+      "minecraft:air"
+    ],
+    "edge_noise": 0.5
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "type": "streamsreflowing:bank_template",
+  "config": {
+    "blocks": [
+      {
+        "pos": [
+          0,
+          -1,
+          0
+        ],
+        "state": {
+          "Name": "minecraft:oak_wood",
+          "Properties": {
+            "axis": "z"
+          }
+        }
+      },
+      {
+        "pos": [
+          0,
+          -1,
+          1
+        ],
+        "state": {
+          "Name": "minecraft:oak_wood",
+          "Properties": {
+            "axis": "z"
+          }
+        }
+      },
+      {
+        "pos": [
+          0,
+          0,
+          2
+        ],
+        "state": {
+          "Name": "minecraft:oak_wood",
+          "Properties": {
+            "axis": "z"
+          }
+        }
+      },
+      {
+        "pos": [
+          0,
+          0,
+          3
+        ],
+        "state": {
+          "Name": "minecraft:oak_wood",
+          "Properties": {
+            "axis": "z"
+          }
+        }
+      },
+      {
+        "pos": [
+          0,
+          0,
+          4
+        ],
+        "state": {
+          "Name": "minecraft:oak_wood",
+          "Properties": {
+            "axis": "z"
+          }
+        }
+      }
+    ],
+    "rotate": true,
+    "mirror": true,
+    "variants": [
+      {
+        "minecraft:oak_log": "minecraft:spruce_log",
+        "minecraft:oak_wood": "minecraft:spruce_wood"
+      },
+      {
+        "minecraft:oak_log": "minecraft:dark_oak_log",
+        "minecraft:oak_wood": "minecraft:dark_oak_wood"
+      }
+    ]
+  }
+}

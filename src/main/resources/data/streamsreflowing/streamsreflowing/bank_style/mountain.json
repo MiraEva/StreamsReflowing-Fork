@@ -1,0 +1,15 @@
+{
+  "tags": ["streamsreflowing:rocky_banks"],
+  "cohesion": 0.8,
+  "bed": "minecraft:air",
+  "waterline": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25
+  },
+  "bank": "minecraft:air",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air", "minecraft:air", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

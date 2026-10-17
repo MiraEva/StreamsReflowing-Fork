@@ -1,0 +1,193 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:arid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:arid_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:desert_wetlands",
+      "required": false
+    },
+    {
+      "id": "still_life:semiarid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_semiarid_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:xeric_shrubland",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_semi_desert",
+      "required": false
+    },
+    {
+      "id": "still_life:dry_cold_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:dry_tropical_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:grassland_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:cold_barren_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:scorched_caves",
+      "required": false
+    },
+    {
+      "id": "still_life:shrub_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_dry_forest",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_mediterranean_steppe",
+      "required": false
+    },
+    {
+      "id": "still_life:wooded_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:arid_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:barren_mediterranean_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:desert_river",
+      "required": false
+    },
+    {
+      "id": "still_life:flooded_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:haunted_depths",
+      "required": false
+    },
+    {
+      "id": "still_life:humid_savanna",
+      "required": false
+    },
+    {
+      "id": "still_life:mangrove_marsh",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_forest",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_marsh",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_river",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_shrubland",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_swamp",
+      "required": false
+    },
+    {
+      "id": "still_life:mediterranean_wooded_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:monsoon_forest",
+      "required": false
+    },
+    {
+      "id": "still_life:old_growth_tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:subtropical_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:savanna_river",
+      "required": false
+    },
+    {
+      "id": "still_life:subtropical_shallow_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_beach",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_deep_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_highlands",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_rainforest_river",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_shallow_ocean",
+      "required": false
+    },
+    {
+      "id": "still_life:tropical_wetlands",
+      "required": false
+    }
+  ]
+}

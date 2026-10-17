@@ -1,0 +1,17 @@
+{
+  "biomes": ["minecraft:frozen_river"],
+  "bed": {
+    "block": "minecraft:gravel",
+    "edge_noise": 0.25
+  },
+  "waterline": {
+    "block": "minecraft:packed_ice",
+    "edge_noise": 0.25
+  },
+  "bank": "minecraft:air",
+  "top_bank": {
+    "block": ["streamsreflowing:chameleon", "minecraft:air", "minecraft:air", "minecraft:air"],
+    "edge_noise": 0.5
+  }
+}
+

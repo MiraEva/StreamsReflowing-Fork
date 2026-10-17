@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "still_life:old_growth_temperate_forest",
+      "required": false
+    },
+    {
+      "id": "still_life:old_growth_tropical_rainforest",
+      "required": false
+    }
+  ]
+}

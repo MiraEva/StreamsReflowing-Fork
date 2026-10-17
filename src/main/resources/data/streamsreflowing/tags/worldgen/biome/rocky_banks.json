@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#minecraft:is_mountain", "required": false },
+    { "id": "#c:is_mountain", "required": false },
+    { "id": "#c:is_windswept", "required": false },
+    { "id": "#terralith:cliffs", "required": false }
+  ]
+}
